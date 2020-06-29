@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Realtime communication with WebRTC</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<style type="text/css">
+			.container {
+				display: grid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Realtime communication with WebRTC</h1>
+		<div class="container">
+			<div><h3>Local</h3></div>
+			<video id="localVideo" autoplay playsinline></video>
+		</div>
+
+		<div class="container">
+			<div><h3>Remote</h3></div>
+			<video id="remoteVideo" autoplay playsinline></video>
+		</div>
+
+		<div>
+			<button id="startButton">Start</button>
+			<button id="callButton">Call</button>
+			<button id="hangupButton">Hang Up</button>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
